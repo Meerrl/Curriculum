@@ -1,0 +1,312 @@
+img {
+    width: 100%;
+}
+
+html,
+body {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(188, 195, 212);
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    background-color: rgb(79, 79, 116);
+    color: white;
+    margin: 0;
+    padding: 16px;
+}
+
+nav li a {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    text-decoration-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    padding-left: 32px;
+    margin: auto;
+    max-width: 400px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration-line: none;
+
+}
+
+nav a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.box1 {
+    text-align: left;
+    color: rgb(77, 75, 74);
+    font-size: 100;
+    font-weight: 700;
+}
+
+.box1 li {
+    list-style: none;
+    font-size: medium;
+}
+
+.foto1 figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.foto1 img {
+    width: 200px;
+    border-radius: 40%;
+}
+
+.foto1 h1 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    line-height: 30px;
+    text-align: center;
+    font-family: "Critter", fantasy, ui-rounded;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: rgb(122, 122, 143);
+}
+
+.foto1 span {
+    color: rgb(0, 0, 0);
+}
+
+.foto1 h2 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 900;
+    font-weight: 400;
+}
+
+.foto2 figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 145px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.foto img,
+.foto h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.foto2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.foto2 h3 {
+    margin: 5px;
+
+}
+
+.fondo2 {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+}
+
+.fondo {
+    max-width: 100vw;
+    margin: 0;
+    border-radius: 10px;
+    color: black;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.box3 {
+    width: 80%;
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    max-width: 500px;
+    padding: 16px;
+    box-shadow: 12px 12px 32px rgb(112, 112, 112);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.box3 img {
+    width: 45px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.box3 figure {
+    padding: 0;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    text-align: left;
+    padding-top: 10px;
+
+}
+
+.box3 a {
+    line-height: 10px;
+    list-style: none;
+    text-decoration-line: none;
+    color: black;
+}
+
+.box3 h3 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-size: 900;
+    font-weight: 400;
+}
+
+.box3 h2 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    text-align: left;
+    font-family: "Critter", fantasy;
+    font-size: 900;
+    font-weight: 500;
+}
+
+.box3 dt,
+.box3 dd,
+.box3 p {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.box3 dd {
+    line-height: 30px;
+}
+
+.box4 {
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    max-width: 500px;
+    padding: 5px;
+    box-shadow: 12px 12px 32px rgb(112, 112, 112);
+}
+
+.box4 img {
+    width: 50px;
+    border-radius: 20%;
+}
+
+.box4 h3 {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-family: "Critter", fantasy;
+    font-size: 900;
+    font-weight: 700;
+}
+
+.box4 p {
+    margin-top: 16px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 900;
+    font-weight: 400;
+}
+
+.sobre a {
+    text-align: left;
+    font-family: "Critter", fantasy;
+    text-decoration-line: none;
+    color: black;
+}
+
+.sobre img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.sobre figure {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    max-width: 100vw;
+    height: 100px;
+    background-color: rgb(79, 79, 116);
+}
+
+.footer dt, .footer dd{
+    text-align: center;
+    font-size: 900;
+    font-weight: 400;
+    margin:0;
+    padding: 0;
+    
+}
+
+.footer dt{
+    line-height: 80px;
+    
+}
+
+.footer dd{
+    line-height: 0;
+}
+
+.footer a{
+    color: black;
+    text-decoration-line: none;
+}
